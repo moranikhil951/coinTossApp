@@ -1,0 +1,87 @@
+/* Write your CSS here */
+
+.container {
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+}
+.toss-container {
+  background-color: #ffffff;
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.imagedUrl {
+  height: 40%;
+  max-width: 30%;
+}
+
+.unordered-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+.list_toss {
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+.coin-heading {
+  color: #a35200;
+  font-size: 40px;
+  font-family: roboto;
+  text-align: center;
+}
+.headsOrtailsPara {
+  font-size: 20px;
+  font-weight: 500;
+}
+.button {
+  background-color: #f9d423;
+  color: #a35200;
+  font-size: 15px;
+  font-weight: 700;
+  height: 25px;
+  border: 0;
+
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .coin-heading {
+    color: #a35200;
+    font-size: 20px;
+    font-family: roboto;
+  }
+  .headsOrtailsPara {
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .imagedUrl {
+    height: 20%;
+    width: 30%;
+  }
+  .button {
+    background-color: #f9d423;
+    color: #a35200;
+    font-size: 10px;
+    font-weight: 500;
+    height: 20px;
+    border: 0;
+    border-radius: 3px;
+  }
+  .list_toss {
+    font-size: 10px;
+
+    margin-right: 10px;
+  }
+}
